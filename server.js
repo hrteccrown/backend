@@ -16,7 +16,7 @@ const { log } = require("console");
 
 let count = 0;
 
-mongoose.connect("mongodb://localhost/locatesy-db", {
+mongoose.connect("mongodb+srv://ekadkishor121540:DTb6bZZrzbJ17K99@cluster0.fyydrq7.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
