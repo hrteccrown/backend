@@ -170,7 +170,7 @@ const buy = mongoose.model("Buy", buySchema);
 //     .then((res) => console.log("One entry added"))
 //     .catch((err) => console.log(err));
 
-csv = fs.readFileSync("./client/public/ldata.csv");
+// csv = fs.readFileSync("./client/public/ldata.csv");
 var array = csv.toString().split("\r");
 let csvData = [];
 let headers = array[0].split(",");
